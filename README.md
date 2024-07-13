@@ -4,6 +4,7 @@ This repository contains implementations of various machine learning algorithms 
 # Table of Contents
 ## **Supervised Algorithms**
 1. Linear Regression
+2. Logistic Regression
 
 
 # Supervised Algorithms

@@ -18,12 +18,12 @@ The `LinearRegression` class is implemented from scratch using NumPy for matrix 
 ## Logistic Regression
 Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable. It is a fundamental technique in binary classification tasks.
 ### Implementation
-The LogisticRegression class is implemented from scratch using NumPy for matrix operations. The implementation includes methods for training the model using gradient descent, making predictions, and a helper function for the sigmoid function.
+The `LogisticRegression` class is implemented from scratch using NumPy for matrix operations. The implementation includes methods for training the model using gradient descent, making predictions, and a helper function for the sigmoid function.
 
 ## Polynomial Regression
 Polynomial regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modeled as an nth degree polynomial.
 ### Implementation
-The PolynomialFeatures class generates polynomial and interaction features. The PolynomialRegression class performs polynomial regression using gradient descent.
+The `PolynomialFeatures` class generates polynomial and interaction features. The `PolynomialRegression` class performs polynomial regression using gradient descent.
 
 
 # Contributing

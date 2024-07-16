@@ -7,6 +7,7 @@ This repository contains implementations of various machine learning algorithms 
 2. Logistic Regression
 3. Polynomial Regression
 4. Lasso Regression
+5. Ridge Regression
 
 
 # Supervised Algorithms
@@ -24,6 +25,11 @@ The `LogisticRegression` class is implemented from scratch using NumPy for matri
 Polynomial regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modeled as an nth degree polynomial.
 ### Implementation
 The `PolynomialFeatures` class generates polynomial and interaction features. The `PolynomialRegression` class performs polynomial regression using gradient descent.
+
+## Lasso Regression
+Lasso regression, or L1 regularization, adds a penalty equal to the absolute value of the magnitude of coefficients to the loss function. It helps in feature selection by shrinking some coefficients to zero.
+### Implementation
+The LassoRegression class is implemented using gradient descent with L1 regularization.
 
 
 # Contributing

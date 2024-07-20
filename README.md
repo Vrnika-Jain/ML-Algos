@@ -8,6 +8,7 @@ This repository contains implementations of various machine learning algorithms 
 3. Polynomial Regression
 4. Lasso Regression
 5. Ridge Regression
+6. Elastic Net Regression
 
 
 # Supervised Algorithms
@@ -30,6 +31,12 @@ The `PolynomialFeatures` class generates polynomial and interaction features. Th
 Lasso regression, or L1 regularization, adds a penalty equal to the absolute value of the magnitude of coefficients to the loss function. It helps in feature selection by shrinking some coefficients to zero.
 ### Implementation
 The LassoRegression class is implemented using gradient descent with L1 regularization.
+
+## Ridge Regression
+Ridge Regression, also known as Tikhonov regularization, extends linear regression by introducing a regularization term, which is the L2 penalty. This technique helps in reducing model complexity and multicollinearity, making it more robust for prediction tasks.
+### Implementation
+1. Gradient Descent Optimization: Utilizes gradient descent to minimize the cost function.
+2. L2 Regularization: Includes an L2 penalty term controlled by the alpha parameter.
 
 
 # Contributing

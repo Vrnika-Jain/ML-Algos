@@ -9,6 +9,7 @@ This repository contains implementations of various machine learning algorithms 
 4. Lasso Regression
 5. Ridge Regression
 6. Elastic Net Regression
+7. Support Vector Machine
 
 
 # Supervised Algorithms
@@ -38,6 +39,10 @@ Ridge Regression, also known as Tikhonov regularization, extends linear regressi
 1. Gradient Descent Optimization: Utilizes gradient descent to minimize the cost function.
 2. L2 Regularization: Includes an L2 penalty term controlled by the alpha parameter.
 
+## Elastic Net Regression
+Elastic Net is a regularized regression method that linearly combines the L1 and L2 penalties of the Lasso and Ridge methods. It is particularly useful when there are multiple features that are correlated with each other, which are common in high-dimensional datasets.
+### Implementation
+The Elastic Net Regression is computed using Gradient Descent using and continuously updating the current weights and bias.
 
 # Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.

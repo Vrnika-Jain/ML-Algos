@@ -75,7 +75,7 @@ The `K Nearest Neighbors` depends on distance between the test point and all tra
 ## **Artificial Neural Networks (ANN)**
 ANNs are inspired by the structure and function of the human brain and are used to solve complex problems in areas such as classification, regression, and pattern recognition.
 ### Implementation
-A dataset with features and target labels, network architecture, learning rate, and number of iterations. Then the output of the network is computed by passing inputs through the layers and Updating weights and biases which were primarily initialized as Zeros.
+For implementing `Artificial Neural Networks`, a dataset with features and target labels, network architecture, learning rate, and number of iterations. Then the output of the network is computed by passing inputs through the layers and Updating weights and biases which were primarily initialized as Zeros.
 
 
 # Unsupervised Algorithms

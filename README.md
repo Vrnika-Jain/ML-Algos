@@ -19,6 +19,7 @@ This repository contains implementations of various machine learning algorithms 
 2. Hierarichal Clustering
 3. Apriori Algorithm
 4. DBSCAN Clustering
+5. PAM Clustering
 
 
 # Supervised Algorithms
@@ -79,7 +80,7 @@ For implementing `Artificial Neural Networks`, a dataset with features and targe
 
 
 # Unsupervised Algorithms
-## *K Means Clustering**
+## **K Means Clustering**
 K Means Clustering technique used for partitioning a dataset into distinct groups (clusters).
 ### Implemnentation
 `K-Means Clustering` is a centroid-based algorithm where the number of clusters (K) is predefined. The algorithm aims to minimize the variance within each cluster, effectively grouping similar data points together.
@@ -93,6 +94,11 @@ The `Hierarichal Clustering` works by calculating the distance between each pair
 Apriori algorithm, is a classic algorithm used in data mining for learning association rules. Apriori is used to identify frequent itemsets in a dataset and derive the association rules from them.
 ### Implementation
 The `Apriori Algorithm` uses a "bottom-up" approach, where frequent subsets are extended one item at a time (a step known as candidate generation), and groups of candidates are tested against the data. The algorithm terminates when no further successful extensions are found.
+
+## **DBSCAN Clustering**
+DBSCAN Algorithm (Density-based spatial clustering) groups together points that are close to each other based on a distance measurement and a minimum number of points. It is particularly effective for finding clusters of arbitrary shape and for identifying outliers (noise).
+### Implementation
+The `DBSCAN Clustering` depends on Density Reachability and Density Connectivity.
 
 
 # Contributing

@@ -96,9 +96,14 @@ Apriori algorithm, is a classic algorithm used in data mining for learning assoc
 The `Apriori Algorithm` uses a "bottom-up" approach, where frequent subsets are extended one item at a time (a step known as candidate generation), and groups of candidates are tested against the data. The algorithm terminates when no further successful extensions are found.
 
 ## **DBSCAN Clustering**
-DBSCAN Algorithm (Density-based spatial clustering) groups together points that are close to each other based on a distance measurement and a minimum number of points. It is particularly effective for finding clusters of arbitrary shape and for identifying outliers (noise).
+DBSCAN Clustering (Density-based spatial clustering) groups together points that are close to each other based on a distance measurement and a minimum number of points. It is particularly effective for finding clusters of arbitrary shape and for identifying outliers (noise).
 ### Implementation
 The `DBSCAN Clustering` depends on Density Reachability and Density Connectivity.
+
+## **PAM Clustering**
+PAM Clustering (Partitioning Around Medoids) is a robust clustering method similar to k-means, but instead of using centroids, it uses actual data points (medoids) as cluster centers. This makes PAM more resilient to noise and outliers. PAM clustering works by first initializing k medoids and then iteratively refining them. It aims to minimize the total dissimilarity between points and their closest medoids.
+### Implementation
+`PAM clustering` is based on the concept of minimizing the total dissimilarity within clusters by using actual data points (medoids) as cluster centers. Unlike k-means, which can be affected by extreme values, PAM is more robust because it relies on representative data points.
 
 
 # Contributing
